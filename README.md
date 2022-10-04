@@ -4,7 +4,10 @@
 
 > MySQL2 wrapper for database-js
 
-Database-js-mysql is a wrapper around the [mysql2](https://github.com/sidorares/node-mysql2) package by Andrey Sidorov. It is intended to be used with the [database-js](https://github.com/mlaanderson/database-js) package. However it can also be used in stand alone mode. The only reason to do that would be to use [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+Database-js-mysql2 is a wrapper around the [mysql2](https://github.com/sidorares/node-mysql2) package by Andrey Sidorov. 
+This was added to allow connect to mysql without password protocol
+
+It is intended to be used with the [database-js](https://github.com/mlaanderson/database-js) package. However it can also be used in stand alone mode. The only reason to do that would be to use [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
 ## Install
 
