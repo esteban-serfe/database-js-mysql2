@@ -4,7 +4,7 @@ var MySQL = require('.');
 var Connection = MySQL.open({
     Hostname: '127.0.0.1',
     Port: 3306,
-    Username: 'user',
+    Username: 'root',
     Password: 'password',
     Database: 'test'
 });
@@ -23,6 +23,7 @@ Connection.execute('DROP TABLE IF EXISTS test1;').then(() => {
                 }
                 Connection.execute('DROP TABLE IF EXISTS test1;').then(() => {
                     Connection.close().then(() => {
+                        console.log("Tests passed");
                         process.exit(0);
                     }).catch(handleError);
                 }).catch(handleError);
