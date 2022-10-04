@@ -1,10 +1,11 @@
 var MySQL = require('.');
 
-
+// Adding support for GitHub Actions
 var Connection = MySQL.open({
-    Hostname: 'localhost',
+    Hostname: '127.0.0.1',
     Port: 3306,
-    Username: 'travis',
+    Username: 'user',
+    Password: 'password',
     Database: 'test'
 });
 
