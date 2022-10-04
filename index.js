@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+var mysql = require('mysql2');
 var fs = require('fs');
 
 var m_connection = Symbol('connection');

@@ -23,7 +23,7 @@
   "homepage": "https://github.com/esteban-serfe/database-js-mysql2#readme",
   "dependencies": {
     "database-js-common": "^1.0.1",
-    "mysql": "^2.16.0"
+    "mysql2": "*"
   },
   "devDependencies": {
     "database-js": "^3.0.2"
