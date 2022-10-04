@@ -32,10 +32,6 @@ jobs:
         run: |
           npm i
 
-      - name: Database Creation
-        run: |
-          mysql --host 127.0.0.1 --port 3306 -uroot -ppassword -e "CREATE DATABASE test;"
-          
       - name: Test
         run: |
           npm test
