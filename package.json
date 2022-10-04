@@ -1,25 +1,26 @@
 {
-  "name": "database-js-mysql",
+  "name": "database-js-mysql2",
   "version": "1.1.2",
-  "description": "database-js wrapper for MySQL",
+  "description": "database-js wrapper for MySQL - Driver version 2",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlaanderson/database-js-mysql.git"
+    "url": "git+https://github.com/esteban-serfe/database-js-mysql2.git"
   },
   "keywords": [
     "database-js",
-    "mysql"
+    "mysql",
+    "mysql2"
   ],
   "author": "Michael Anderson <michael@anderson-clan.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mlaanderson/database-js-mysql/issues"
+    "url": "https://github.com/esteban-serfe/database-js-mysql2/issues"
   },
-  "homepage": "https://github.com/mlaanderson/database-js-mysql#readme",
+  "homepage": "https://github.com/esteban-serfe/database-js-mysql2#readme",
   "dependencies": {
     "database-js-common": "^1.0.1",
     "mysql": "^2.16.0"
