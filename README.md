@@ -9,14 +9,14 @@ Database-js-mysql is a wrapper around the [mysql](https://github.com/mysqljs/mys
 ## Install
 
 ```bash
-npm install database-js-mysql
+npm install database-js-mysql2
 ```
 
 ## Usage
 
 ### Stand Alone
 ```js
-var mysql = require('database-js-mysql');
+var mysql = require('database-js-mysql2');
 
 (async () => {
     let connection, rows;
@@ -45,7 +45,7 @@ var Database = require('database-js').Connection;
 
 (async () => {
     let connection, statement, rows;
-    connection = new Database('mysql://my_secret_username:my_secret_password@localhost:3306/my_top_secret_database');
+    connection = new Database('mysql2://my_secret_username:my_secret_password@localhost:3306/my_top_secret_database');
 
     try {
         statement = await connection.prepareStatement("SELECT * FROM tablea WHERE user_name = ?");
@@ -68,7 +68,7 @@ var Database = require('database-js').Connection;
 
 (async () => {
     let connection, statement, rows;
-    connection = new Database('mysql://my_secret_username:my_secret_password@localhost:3306/my_top_secret_database?ssl[ca]=%2Fpath%2Fto%2Fca.pem');
+    connection = new Database('mysql2://my_secret_username:my_secret_password@localhost:3306/my_top_secret_database?ssl[ca]=%2Fpath%2Fto%2Fca.pem');
 
     try {
         statement = await connection.prepareStatement("SELECT * FROM tablea WHERE user_name = ?");
